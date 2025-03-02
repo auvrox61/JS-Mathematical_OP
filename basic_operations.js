@@ -1,0 +1,11 @@
+const readline=require('readline-sync');
+let n1=readline.question("Enter the first number: ");
+let n2=readline.question("Enter the second number: ");
+n1=parseFloat(n1);
+n2=parseFloat(n2);
+console.log(`Addition : ${n1+n2}`);
+console.log(`Subtraction : ${n1-n2}`);
+console.log(`Multiplication : ${n1*n2}`);
+console.log(`Division : ${n1/n2}`);
+console.log(`Modulus : ${n1%n2}`);
+console.log(`Exponentiation : ${n1**n2}`);
